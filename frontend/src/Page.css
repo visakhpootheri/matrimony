@@ -1,0 +1,116 @@
+.body{
+    margin: 0;
+}
+.Page_head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    position: relative;
+}
+.Page_head_box{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.Page_head_col1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    /* position: absolute; */
+}
+.Page_head_col1_logo1,.Page_head_col1_logo2{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Page_head_col1_list{
+    width: 90%;
+    background-color: rgba(82, 88, 91, 0.053); 
+}
+.Page_head_col1_list ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Page_head_col1_logo2 img{
+    width: 45px;
+    height: 45px;
+}
+.Page_head_col2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:#fff;
+    /* position: absolute; */
+    border-radius: 10px;
+
+}
+.Page_head_col2 input{
+    width: 90%;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+}
+.Page_head_col2 button{
+   width: 10%;
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+   border: none;
+   background-color: crimson;
+   color: #fff;
+}
+.Page_body{
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(59, 62, 62, 0.182);
+  padding-top: 50px;
+}
+.Page_body_list{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.Page_body_list_one{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+}
+.Page_body_list_one img{
+    width: 23%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.Page_body_list_one_label{
+    width: 100%;
+    background-color: #fff;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10PX 25px;
+}
+.Page_body_list_one_label_row1{
+    width: 100%;
+    font-size: xx-large; 
+    margin-bottom: 20px;
+}
+.Page_body_list_one_label_row{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}

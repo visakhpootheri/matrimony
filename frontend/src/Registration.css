@@ -1,0 +1,111 @@
+/* body{
+    margin: 0;
+} */
+.Head{
+    width: 100%;
+    background-color: white;
+    height: 10%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.344);
+}
+.Hlogo{
+    padding-top: 15px;
+    padding-left: 55px;
+}
+.Htext{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 13px;
+    color: rgb(50, 49, 49);
+}
+.Upper{
+    font-size: x-large;
+}
+.Lower{
+    font-size: large;
+}
+.Midbody{  
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(81, 80, 80, 0.144);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Mupper{
+    width: 90%;
+    font-size: x-large;
+    display: flex;
+    justify-content: right;
+    
+}
+.B{
+    font-size: xx-large;
+}
+.Mupper span{
+    font-size: xx-large;
+}
+.Column{
+    width: 90%;
+    display: flex;
+}
+.leftbody{
+    width: 50%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.leftbody label{
+    padding-top: 20px;
+    font-size: large;
+}
+.rightbody{
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.rtext{
+    font-size: x-large;
+}
+.list{
+    width: 97%;
+    display: flex;
+    /* background-color: aqua; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.list label{
+    width: 50%;
+    font-size: large;
+}
+.list input{
+    width: 45%;
+    border: none;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.262);
+    outline: none;
+}
+.Btn{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: right;
+}
+.Btn button{
+    width: 30%;
+    background-color: orange;
+    border-radius: 30px;
+    border: 0px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+}
+.Footer{
+    margin: 10px;
+}

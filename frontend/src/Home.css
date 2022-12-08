@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+.Home_head{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+.Home_head_clm1{
+    width: 50%;
+    display: flex;  
+    flex-direction: row; 
+}
+.Home_head_clm1_logo{
+    width: 15%;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+}
+.Home_head_clm1_label{
+    width: 85%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.Clm1_label_up{
+    font-size: x-large;
+}
+.Clm1_label_low{
+    font-size: larger;
+}
+.Home_head_clm2{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center; 
+    padding-right: 7%;
+}
+.Home_head_clm2 label{
+    font-size: larger;
+    padding: 20px;
+}
+.Home_head_clm2 button{
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(100, 143, 237);
+    color: #fff;
+    padding: 5px 10px;
+    font-size: medium;
+}
+.Home_body{
+    width: 100%;
+    height: 100vh;
+    background-image:url("C:\Users\Lenovo\Desktop\project\matrimony\frontend\src\background.webp");
+    background-attachment: fixed;
+    background-size: contain;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.Home_body_clm{
+    width: 70%;
+    background-color: rgba(54, 51, 51, 0.381);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Home_body_clm label{
+    height: 40%;
+}
+.Home_body_clm_label1{
+    font-size: xx-large;
+    color: white;
+}
+.Home_body_clm_label2{
+    font-size: larger;
+    color: white;
+}
+.Home_body_clm_box{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.Home_body_clm_box_one{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;  
+}
+.Home_body_clm_box_one,.Home_body_clm_box_two,.Home_body_clm_box_three{
+    width: 25%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.Home_body_clm_box_two{
+    border-left: 0.5px solid rgba(0, 0, 0, 0.415);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.415);
+}
+.Home_body_clm_box_one select,.Home_body_clm_box_two input,.Home_body_clm_box_three input{
+    outline: none;
+    border: 0px;
+}
+.Home_body_clm_box_btn{
+    width: 25%;
+}
+.Home_body_clm_box_btn button{
+    background-color: rgb(100, 143, 237);
+    border: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    width: 100%;
+    padding: 35px;
+}
+.Home_body_clm_box2{
+    width: 100%;
+    height: 10%;
+    color: #fff;
+}
+.Ch{
+    color: white;
+    padding-top: 7px;
+    padding-left: 450px;
+}
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.F{
+    display: flex;
+    flex-direction: column;
+    /* width: 20%; */
+    padding: 20px;
+
+}
+.F img{
+    width: 40px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 40%;
+    padding-top: 15px;
+}
+.F label{
+    padding-top: 20px;
+}
+

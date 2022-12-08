@@ -1,0 +1,72 @@
+.Login_window{
+    width: 100%;
+    height: 100vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    background-color: transparent;
+    position: absolute;
+}
+.Login_page{
+    width: 510px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Login_page_head{
+    padding: 20px 15px;
+    border: 0px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.262);
+}
+.Login_page_head label{
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.86);
+}
+.Login_page_head button{
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.86);
+    position: absolute;
+    right: 20px;
+    border: 0px;
+    background-color: #fff;
+}
+.Login_page_middle{
+    display: flex;  
+    flex-direction: column;
+    padding: 15px;
+}
+.Login_page_middle_clm1,.Login_page_middle_clm2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.Login_page_middle label{
+    font-size: large;
+}
+.Login_page_middle_clm1 input,.Login_page_middle_clm2 input{
+    padding: 5px;
+}
+.Login_page_middle_clm3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.Login_page_middle_clm3 label{
+    padding-left: 10px;
+}
+.Login_page_middle_clm4 button{
+    width: 100%;
+    font-size: large;
+    background-color: orange;
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Login_page_middle_clm5 {
+    margin-top: 10px;
+
+}
